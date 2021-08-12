@@ -11,7 +11,7 @@ import time
 import datetime
 
 
-remote = create_engine('postgresql://dpickern:Eromitlab1@web602.webfaction.com:5432/caiso_sandbox')
+remote = create_engine('')
 # url = requests.get('http://wwwmobile.caiso.com/Web.Service.Chart/api/v3/ChartService/PriceContourMap1')
 url = requests.get('http://wwwmobile.caiso.com/Web.Service.Chart/api/v3/ChartService/PriceContourMap1')
 # make soup 
